@@ -23,8 +23,8 @@ public class CustomerServlet extends HttpServlet {
 	
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
-		String id = "eddy";
-		String pw = "jo";
+		String id = "";
+		String pw = "";
 		
 		Connection con = null;
 		Statement stmt = null;
